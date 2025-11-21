@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--// Google fonts - Poppins //-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allison&family=Alumni+Sans+Pinstripe:ital@0;1&family=Anaheim&family=Anton&family=Architects+Daughter&family=Atma:wght@300;400;500;600;700&family=Audiowide&family=Bangers&family=Bebas+Neue&family=Belleza&family=Bruno+Ace&family=Bungee+Shade&family=Caveat:wght@400..700&family=Chewy&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Courgette&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Covered+By+Your+Grace&family=Creepster&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Delius&family=Dosis:wght@200..800&family=Doto:wght@100..900&family=DynaPuff:wght@400..700&family=Electrolize&family=Emblema+One&family=Encode+Sans+SC:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Flavors&family=Fontdiner+Swanky&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Geo:ital@0;1&family=Homenaje&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Indie+Flower&family=Jost:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Just+Me+Again+Down+Here&family=Kapakana:wght@300..400&family=La+Belle+Aurore&family=League+Script&family=Lexend:wght@100..900&family=Luckiest+Guy&family=Manrope:wght@200..800&family=Mea+Culpa&family=Megrim&family=Metal+Mania&family=Michroma&family=Modak&family=Moirai+One&family=Monoton&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mr+Dafoe&family=Mrs+Saint+Delafield&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nixie+One&family=Nova+Square&family=Offside&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron&family=Parkinsans:wght@300..800&family=Pirata+One&family=Playwrite+TZ:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Qwigley&family=Rammetto+One&family=Rationale&family=Reenie+Beanie&family=Righteous&family=Road+Rage&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&family=Saira:ital,wght@0,100..900;1,100..900&family=Sancreek&family=Schoolbell&family=Shrikhand&family=Space+Grotesk:wght@300..700&family=Stalinist+One&family=Syncopate:wght@400;700&family=Tektur:wght@400..900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&family=Vast+Shadow&family=Viaoda+Libre&family=Wallpoet&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--// CSS //-->
+    <link rel="stylesheet" href="/slutprojekt/css/app.css">
+    <title>Ditto</title>
+</head>
+<body>
+        
+    <!--// sidebar //-->
+    <aside class="sidebar fixed top-0 left-0 z-40 w-64 h-full transition-transform -translate-x-full sm:translate-x-0 overflow-x-hidden" >
+    <div class="h-full px-3 py-4 overflow-y-auto bg-neutral-primary-soft">
+        <ul class="space-y-2 font-medium">
+            <!--// logotyp //-->
+            <div class="h-full overflow-y-auto">
+                <a href="/slutprojekt/index.html" class="flex items-center space-x-2 pb-4">
+                    <img 
+                    src="/slutprojekt/assets/logotyp.png" 
+                    class="h-10" 
+                    alt="Ditto Logo"
+                    />
+                    <span class="text-2xl text-heading font-extrabold whitespace-nowrap uppercase">Ditto</span>
+                </a>
+            </div>
+        <div class="max-w-sm">
+                <li class="list-none">
+                    <button class="w-full flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
+                        <img 
+                            src="data:image/png;base64,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" 
+                            alt="Bima Algifari"
+                            class="w-8 h-8 rounded-full object-cover flex-shrink-0"
+                        >
+                        <div class="flex flex-col items-start text-left">
+                            <span class="text-gray-900 font-[500] text-base">${userName}</span>
+                            <span class="text-gray-500 text-xs">${userMail}</span>
+                        </div>
+                    </button>
+                </li>
+            </div>
+            <li>
+                <a href="#" class="navLink flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6.025A7.5 7.5 0 1 0 17.975 14H10V6.025Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 3c-.169 0-.334.014-.5.025V11h7.975c.011-.166.025-.331.025-.5A7.5 7.5 0 0 0 13.5 3Z"/></svg>
+                <span class="ms-3">Start</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navLink flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6.025A7.5 7.5 0 1 0 17.975 14H10V6.025Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 3c-.169 0-.334.014-.5.025V11h7.975c.011-.166.025-.331.025-.5A7.5 7.5 0 0 0 13.5 3Z"/></svg>
+                <span class="ms-3">Board</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navLink-active flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6.025A7.5 7.5 0 1 0 17.975 14H10V6.025Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 3c-.169 0-.334.014-.5.025V11h7.975c.011-.166.025-.331.025-.5A7.5 7.5 0 0 0 13.5 3Z"/></svg>
+                <span class="ms-3">Calander</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navLink flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6.025A7.5 7.5 0 1 0 17.975 14H10V6.025Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 3c-.169 0-.334.014-.5.025V11h7.975c.011-.166.025-.331.025-.5A7.5 7.5 0 0 0 13.5 3Z"/></svg>
+                <span class="ms-3">Subjects</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </aside>
+
+    <!--// Mobil navigation //-->
+    <div class="mobilNavigation hidden fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white rounded-full bottom-4 left-1/2">
+        <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
+            <a class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-gray-100 group">
+                <svg class="w-6 h-6 mb-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"/></svg>
+                <span class="sr-only">Start</span>
+            </a>
+            <a class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 group">
+                <svg class="w-6 h-6 mb-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8H5m12 0a1 1 0 0 1 1 1v2.6M17 8l-4-4M5 8a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.6M5 8l4-4 4 4m6 4h-4a2 2 0 1 0 0 4h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1Z"/></svg>
+                <span class="sr-only">Board</span>
+            </a>
+            <div class="flex items-center justify-center">
+                <a class="inline-flex items-center justify-center text-white bg-custome-red-hover focus:ring-4 shadow-xs rounded-full w-8 h-8 focus:outline-none">
+                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/></svg>
+                    <span class="sr-only">New item</span>
+                </a>
+            </div>
+            <a class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 group">
+                <svg class="w-6 h-6 mb-1 text-body group-hover:text-fg-brand" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M6 4v10m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0v2m6-16v2m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0v10m6-16v10m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0v2"/></svg>
+                <span class="sr-only">Settings</span>
+            </a>
+            <a class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-gray-100 group">
+                <svg class="w-6 h-6 mb-1 text-body group-hover:text-fg-brand" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
+                <span class="sr-only">Profile</span>
+            </a>
+        </div>
+    </div>
+
+    <main class="p-4 sm:ml-64">
+    <div class="p-4 main-bg border border-dashed border-gray-300 rounded-base h-fit min-h-screen rounded-md">
+        
+    </div>
+    </main>
+<style>
+.poppins{font-family: "Poppins", sans-serif;}
+body{font-family: "Poppins", sans-serif !important;}
+
+/* -- färger -- */
+.text-custome-red{color: #fe1056;}
+.text-custome-red-hover:hover{color: #b80239; transition: ease-in-out 0.3s;}
+.text-custome-red-hover{color: #fe1056;}
+.bg-custome-red{background:#fe1056;}
+.bg-custome-red-hover{background:#fe1056;}
+.bg-custome-red-hover:hover{background:#b40338; transition: 0.2s color;}
+.main-bg{background: #f3f4f6;}
+/* -- komponenet css -- */
+.why-us-card{
+  background: white;
+  height: 20rem;
+  border: rgba(128, 128, 128, 0.292) solid 0.6vw;
+}
+/* -- Sidebar -- */
+.navLink{background: transparent; color: #292929; border-radius: 0.5rem;}
+.navLink:hover{background: #cccccd8e; color: #292929; transition: ease-in-out 0.2s;}
+.navLink-active{background: #fe1056; color: white; border-radius: 0.5rem;}
+/* -- responsiv css för navigation -- */
+/* Dölj mobilnavigation på desktop, visa endast på mobil */
+.mobilNavigation {
+    display: none;
+}
+
+/* Visa mobilnavigation på skärmar mindre än 640px (mobil) */
+@media (max-width: 639px) {
+    .mobilNavigation {
+        display: block;
+    }
+}
+
+/* Alternativt: Dölj sidebar på mobil om du vill */
+@media (max-width: 639px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+}
+</style>
+</body>
+</html>
